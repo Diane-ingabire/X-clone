@@ -9,7 +9,7 @@
 <body>
     <div class="layout">
         <div class="layout__left-sidebar">
-          <img src="twitter-3-svgrepo-com.svg" alt="img" height="30px" width="30px" id="twitter-img"/>
+          <img src="twitter-3-svgrepo-com.svg" alt="img" height="30px" width="30px" style="fill: aliceblue;"/>
         <div class="sidebar-menu">
             <div class="sidebar-menu__item sidebar-menu__item--active">
                 <img src="home-5-svgrepo-com.svg" class="sidebar-menu-item-icon" />
@@ -51,12 +51,19 @@
        
         </div>
         <div class="layout__main">
-
-          <div class="layout_up">
-            <h2>Home</h2>
-            <div class="for you">For you </div>
-            <div class="following">Following</div>
-          </div>  
+            <div class="main_header">
+                <h2>Home</h2>
+            </div>
+            <div class="mainbox" >
+                <form>
+                    <div class="tweetbox_input">
+                        <img src="image2.JPG" alt="avatar">
+                        <input type="text" placeholder="what happening?">
+                    </div>
+                    <button class="tweet_button">Tweet</button>
+                   
+                </form>
+            </div>
           <div class="tweet">
             <img class="tweet__author-logo" src="image.JPG" />
             <div class="tweet__main">
@@ -210,6 +217,7 @@
             </div>
         
         </div>
+        
     </div>
 </body>
 </html>
