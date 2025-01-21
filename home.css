@@ -43,6 +43,64 @@ html{
 .sidebar-menu__item--active.sidebar-menu-item-icon{
     filter: invert(67%) sepia(60%) saturate(4956%) hue-rotate(176deg) brightness(95%);
 }
+.layout__main{
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+.main_header{
+    position: sticky;
+    top:0;
+    background-color: black;
+    Z-index: 100;
+    border: 1px solid gray;
+    padding: 15px 20px;
+}
+.main_header h2{
+  font-size: 20px;
+  font-weight: 800;
+}
+.tweetbox_input img{
+ border-radius: 50%;
+ height: 40px;
+}
+.mainbox{
+  padding-bottom: 10px;
+  border-bottom: 1px solid  white; 
+  padding-right:10px;  
+} 
+.mainbox form{
+    display: flex;
+    flex-direction: column ;
+   
+}
+.tweetbox_input{
+   display: flex;
+    padding:20px;
+}
+.tweetbox_input input{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none; 
+    outline: none;
+    background-color: black;
+}
+.tweet_button{
+     background-color: #1da0f2;
+     border: none;
+     color: white;
+     font-weight: 900;
+     border-radius: 30px;
+     width: 80px;
+     height: 40px;
+     margin-top:20px;
+     margin-left: 600px;
+}
+.layout__up{
+    display: grid;
+    grid-template-columns: 275px auto 350px;
+    margin:0 auto;
+}
 .Tweet{
     color:white;
     background-color: #1da0f2;
@@ -94,9 +152,10 @@ html{
     cursor:pointer;
 }
 .trends-for-you{
-    background-color:#616161;
+    background-color:#1a1b1c;
     border: 1px solid rgba(199,192,192,0.5);
     border-radius:10px;
+    margin-left: 50px;
    
 }
 .trends-for-you__block{
@@ -106,7 +165,7 @@ html{
 .trends-for-you__heading{
     font-size:19px;
     font-weight: bold;
-    color:#14171a;
+    color:white;
 }
 .trends-for-you__meta-information{
   font-size:13px;
